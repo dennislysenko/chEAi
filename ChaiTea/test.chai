@@ -1,0 +1,9 @@
+var findBetterFootballer = fun(a, b) {
+    if (a.Pace > b.Pace) {
+        return a;
+    } else {
+        return b;
+    }
+}
+
+findBetterFootballer(lahm, bellerin);
